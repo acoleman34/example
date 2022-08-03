@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="10.3923.2.637" modelVersion="1.1" ?>
+<!-- File created on 5/27/22 1:15 PM from 20.picture -->
+<panel xmlns="http://www.seagullsoftware.com/schemas/legasuite/panel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/panel http://www.seagullsoftware.com/schemas/legasuite/paneldefinition3_1.xsd">
+  <properties>
+    <codepage>1252</codepage>
+    <dimensions cx="600" cy="360"/>
+    <FontColor/>
+    <general_flags_1>
+      <always_update/>
+    </general_flags_1>
+    <id>(20)</id>
+    <panel_flags>
+      <leave_sec_active/>
+      <update_on_host_change/>
+    </panel_flags>
+    <screen_name>(20)</screen_name>
+    <title>@(TITLE)@</title>
+  </properties>
+  <menu_bar/>
+  <controls>
+    <output>
+      <dimensions x="7" y="10" cx="113" cy="16"/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>ZZPGM</host_field>
+      <id>OUTPUT1</id>
+    </output>
+    <text>
+      <dimensions x="129" y="10" cx="48" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT1</id>
+      <title>ENTER</title>
+    </text>
+    <output>
+      <dimensions x="186" y="10" cx="74" cy="16"/>
+      <FontColor>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <right_aligned/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>*DATE</host_field>
+      <id>OUTPUT2</id>
+    </output>
+    <output>
+      <dimensions x="269" y="10" cx="74" cy="16"/>
+      <FontColor>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <right_aligned/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>ZZTME</host_field>
+      <id>OUTPUT3</id>
+    </output>
+    <text>
+      <dimensions x="129" y="30" cx="187" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT2</id>
+      <title>Type Menu Option, Press Enter</title>
+    </text>
+    <text>
+      <dimensions x="129" y="50" cx="61" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT3</id>
+      <title>1=Branch</title>
+    </text>
+    <text>
+      <dimensions x="129" y="70" cx="78" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT4</id>
+      <title>2=Employee</title>
+    </text>
+    <text>
+      <dimensions x="129" y="90" cx="65" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT5</id>
+      <title>3=Product</title>
+    </text>
+    <text>
+      <dimensions x="129" y="110" cx="51" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT6</id>
+      <title>4=State</title>
+    </text>
+    <text>
+      <dimensions x="129" y="130" cx="149" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT7</id>
+      <title>5=Work With Customers</title>
+    </text>
+    <text>
+      <dimensions x="129" y="150" cx="66" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT8</id>
+      <title>7=Sign Off</title>
+    </text>
+    <edit>
+      <dimensions x="129" y="170" cx="19" cy="20"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <field_length length="1" field_type="0" check_direct="0"/>
+      <FontColor>
+        <FontStyleName>Input Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border_when_read_only/>
+        <output_when_read_only/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <host_field>ZDAIST</host_field>
+      <id>ENTRY1</id>
+    </edit>
+    <text>
+      <dimensions x="157" y="170" cx="79" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT9</id>
+      <title>Menu Option</title>
+    </text>
+    <button>
+      <dimensions x="4" y="467" cx="57" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <general_flags_2>
+        <default/>
+        <visibility_equal_hide/>
+        <visibility_not_present_disable/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <id>(OK)</id>
+      <send_key>1</send_key>
+      <title>OK</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="65" y="467" cx="36" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON1</id>
+      <send_key>4</send_key>
+      <title>~F1</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="105" y="467" cx="66" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <autolength/>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON2</id>
+      <send_key>6</send_key>
+      <title>~Exit</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="175" y="467" cx="66" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON3</id>
+      <send_key>7</send_key>
+      <title>~Prompt</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="245" y="467" cx="36" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON4</id>
+      <send_key>8</send_key>
+      <title>F~5</title>
+    </button>
+    <output>
+      <dimensions x="5" y="497" cx="733" cy="20"/>
+      <field_flags/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>(MESSAGE)</host_field>
+      <id>OUTPUT4</id>
+    </output>
+    <button>
+      <dimensions x="334" y="162" cx="176" cy="141"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <ColorBackground>4</ColorBackground>
+      </FontColor>
+      <general_flags_2>
+        <visibility_equal_hide/>
+        <visibility_not_present_disable/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <id>BUTTON5</id>
+      <ois_object>getcity</ois_object>
+      <title>press</title>
+    </button>
+    <output>
+      <dimensions x="36" y="222" cx="243" cy="59"/>
+      <field_flags/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>&amp;&amp;cityinfo</host_field>
+      <id>OUTPUT5</id>
+    </output>
+  </controls>
+</panel>

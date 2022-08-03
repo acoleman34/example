@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Training</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.seagullsw.eclipse.project.hostui.uiProjectBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.seagullsw.eclipse.project.hostui.ProjectHostUiNature</nature>
+		<nature>com.seagullsw.eclipse.project.emul.emul5250.TN5250Nature</nature>
+		<nature>com.seagullsw.eclipse.dataaccess.core.DataAccessRepositoryProject</nature>
+	</natures>
+</projectDescription>

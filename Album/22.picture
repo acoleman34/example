@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000022" library="EDUGEN    " member_name="YDDSHPR#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f4"/>
+        <action key="f6"/>
+        <action key="f12"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <action key="help" conditional="true"/>
+        <field name="#HPHP##   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="23"/>
+            </area>
+            <field name="##PGVN    " data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field name="*DATE     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field" conditional="true">
+                <area>
+                    <position x="12" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <indicator id="97"/>
+            </field>
+            <field name="*TIME     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field" conditional="true">
+                <area>
+                    <position x="21" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <indicator id="97"/>
+            </field>
+            <field value="          Help Text for Help Text Display" data_length="50" display_length="50" field_type="msgid_text">
+                <area>
+                    <position x="13" y="1"/>
+                    <size cx="50" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value="(C) Copyright 1998 Sterling Software" data_length="36" display_length="36" field_type="fixed_text">
+                <area>
+                    <position x="44" y="2"/>
+                    <size cx="36" cy="1"/>
+                </area>
+            </field>
+            <field underline="true" value="Introduction :" data_length="14" display_length="14" field_type="msgid_text">
+                <area>
+                    <position x="4" y="3"/>
+                    <size cx="14" cy="1"/>
+                </area>
+            </field>
+            <field value="This program enables you to read help text at a workstation." data_length="72" display_length="72" field_type="msgid_text">
+                <area>
+                    <position x="6" y="4"/>
+                    <size cx="72" cy="1"/>
+                </area>
+            </field>
+            <field underline="true" value="Command keys :" data_length="14" display_length="14" field_type="msgid_text">
+                <area>
+                    <position x="4" y="6"/>
+                    <size cx="14" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="* F3" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="6" y="7"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value=": Exit from the help text display." data_length="57" display_length="57" field_type="msgid_text">
+                <area>
+                    <position x="20" y="7"/>
+                    <size cx="57" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="* F4" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="6" y="8"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value=": Edit the current help text document." data_length="57" display_length="57" field_type="msgid_text">
+                <area>
+                    <position x="20" y="8"/>
+                    <size cx="57" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="* F6" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="6" y="9"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value=": Print the current help text." data_length="57" display_length="57" field_type="msgid_text">
+                <area>
+                    <position x="20" y="9"/>
+                    <size cx="57" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="* F12" data_length="10" display_length="10" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="6" y="10"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <indicator id="75"/>
+            </field>
+            <field value=": Return to the index display." data_length="57" display_length="57" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="20" y="10"/>
+                    <size cx="57" cy="1"/>
+                </area>
+                <indicator id="75"/>
+            </field>
+            <field high_intensity="true" value="* ROLLUP" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="6" y="11"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value=": Display the next page of help text." data_length="57" display_length="57" field_type="msgid_text">
+                <area>
+                    <position x="20" y="11"/>
+                    <size cx="57" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="* ROLLDOWN" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="6" y="12"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value=": Display the previous page of help text." data_length="57" display_length="57" field_type="msgid_text">
+                <area>
+                    <position x="20" y="12"/>
+                    <size cx="57" cy="1"/>
+                </area>
+            </field>
+            <field underline="true" value="Data         :" data_length="14" display_length="14" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="4" y="13"/>
+                    <size cx="14" cy="1"/>
+                </area>
+                <indicator id="75"/>
+            </field>
+            <field high_intensity="true" value="Next option" data_length="11" display_length="11" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="6" y="14"/>
+                    <size cx="11" cy="1"/>
+                </area>
+                <indicator id="75"/>
+            </field>
+            <field value=": Index number of next item to be displayed." data_length="57" display_length="57" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="18" y="14"/>
+                    <size cx="57" cy="1"/>
+                </area>
+                <indicator id="75"/>
+            </field>
+            <field value="NB. If you called the help text display by pressing the HELP key in" data_length="72" display_length="72" field_type="msgid_text">
+                <area>
+                    <position x="4" y="16"/>
+                    <size cx="72" cy="1"/>
+                </area>
+            </field>
+            <field value="    another program, the other program stops processing until you return" data_length="72" display_length="72" field_type="msgid_text">
+                <area>
+                    <position x="4" y="17"/>
+                    <size cx="72" cy="1"/>
+                </area>
+            </field>
+            <field value="    to it by pressing F3." data_length="72" display_length="72" field_type="msgid_text">
+                <area>
+                    <position x="4" y="18"/>
+                    <size cx="72" cy="1"/>
+                </area>
+            </field>
+            <field value="Text displayed is from file:" data_length="28" display_length="28" field_type="msgid_text">
+                <area>
+                    <position x="4" y="20"/>
+                    <size cx="28" cy="1"/>
+                </area>
+            </field>
+            <field name="$$FLVN    " high_intensity="true" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="33" y="20"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value="Library:" data_length="8" display_length="8" field_type="msgid_text">
+                <area>
+                    <position x="44" y="20"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field name="$$LBVN    " high_intensity="true" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="53" y="20"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value="Mbr:" data_length="4" display_length="4" field_type="msgid_text">
+                <area>
+                    <position x="65" y="20"/>
+                    <size cx="4" cy="1"/>
+                </area>
+            </field>
+            <field name="$$MBVN    " high_intensity="true" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="70" y="20"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field value="F3=Exit   Press ENTER to return to Help Text display" data_length="79" display_length="79" field_type="msgid_text">
+                <area>
+                    <position x="1" y="22"/>
+                    <size cx="79" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+        </field>
+        <field name="#SFCT#Q   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="23"/>
+                <size cx="80" cy="1"/>
+            </area>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="0"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+            </field>
+        </field>
+    </screen>
+</header>

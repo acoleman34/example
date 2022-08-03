@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="6.1660.0.0" modelVersion="1.0" ?>
+<FontStyles>
+   <FontStyle name="Input Field - Alphanumeric">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Output Field - Alphanumeric">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Output Field - Numeric">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Input Field - Numeric">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Text Label">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="List Column - Numeric">
+      <FontDefinition>
+         <FontFaceName>Courier New</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FixedPitch/>
+         <FontFamily>Modern</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="List Column - Alphanumeric">
+      <FontDefinition>
+         <FontFaceName>Courier New</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FixedPitch/>
+         <FontFamily>Modern</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="List Header">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Push Button">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Radio Button">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Check Box">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Radio Button - Group">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Menu Item">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <Underline/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Combo Box">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>11</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Link - Normal">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <Underline/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Link - Small">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>11</CharacterHeight>
+         <Underline/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Title">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>21</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Section Header">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Link - Large">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <Underline/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Help Text">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>11</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Tab">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Panel Default">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Message">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>13</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Push Button - Small">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>11</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="Input Field - Small">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>11</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="List Column - Alphanumeric - 2">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="List Column - Numeric - 2">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+   <FontStyle name="List Header - 2">
+      <FontDefinition>
+         <FontFaceName>Arial</FontFaceName>
+         <CharacterHeight>16</CharacterHeight>
+         <Bold/>
+         <FontFamily>Swiss</FontFamily>
+      </FontDefinition>
+   </FontStyle>
+</FontStyles>

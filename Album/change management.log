@@ -1,0 +1,7 @@
+﻿-- Change management Report --
+
+Picture file   	Internal Name                 	ID #   	Row	Col	Field or Text                                     	Difference 	Screen         	Host Field     	Host Field Change                                 	Panel          	Control                                           	Control Change                                                             
+4              	EDUGEN/UUAJE1RD(ZRCDDTL1+*021/	(4)    	009	030	"(Y/N)"                                           	removed    	-              	-              	-                                                 	-              	-                                                 	-                                                                          
+4              	EDUGEN/UUAJE1RD(ZRCDDTL1+*021/	(4)    	009	028	V1AGST                                            	removed    	(4)            	V1AGST         	Removing host field                               	(4)            	Checkbox(id: CHECK1)                              	Removed                                                                    
+4              	EDUGEN/UUAJE1RD(ZRCDDTL1+*021/	(4)    	009	002	"Customer Preferred? . ."                         	removed    	-              	-              	-                                                 	-              	-                                                 	-                                                                          
+

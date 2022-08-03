@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<IdentificationGroup>
+    <groups name="Conditional">
+        <group name="Screen.0.0.24.80.1">
+            <picture name="EDUGEN/YDMNGOI#(#HDNGS+#SFLCTL+*021/024)"/>
+            <picture name="EDUGEN/YDMNGOI#(#HDNGS+*021/024)"/>
+        </group>
+        <group name="Screen.0.0.24.80.2">
+            <picture name="EDUGEN/UUARETRD(ZSFLCTL+*021/024)"/>
+            <picture name="EDUGEN/UUAXETRD(ZSFLCTL+*021/024)"/>
+        </group>
+        <group name="Screen.0.0.24.80.3">
+            <picture name="EDUGEN/YDDSHP1#(#SFCT#1+*021/024)"/>
+            <picture name="EDUGEN/YDDSHPR#(#SFCT#1+*021/024)"/>
+        </group>
+    </groups>
+</IdentificationGroup>

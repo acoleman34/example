@@ -1,0 +1,58 @@
+Generating Ini file... Done
+Copying resource files...
+   Determining differences...
+   Skipping file: /Training/Resources/Awhost.AWHOST
+   Skipping file: /Training/Resources/Awhost2.AWHOST
+   Skipping file: /Training/Resources/Cocotree.gif
+   Skipping file: /Training/Resources/POINTER.GIF
+   Skipping file: /Training/Resources/SEAGULL Color Logo.GIF
+   Skipping file: /Training/Resources/Thumbs.db
+   Skipping file: /Training/Resources/calendar_clock.gif
+   Skipping file: /Training/Resources/cartopleft.GIF
+   Skipping file: /Training/Resources/door_exit.gif
+   Skipping file: /Training/Resources/downArrow.GIF
+   Skipping file: /Training/Resources/excel.gif
+   Skipping file: /Training/Resources/ok.gif
+   Skipping file: /Training/Resources/ok_2.gif
+   Skipping file: /Training/Resources/upArrow.GIF
+   Skipping file: /Training/Resources/word.gif
+   Skipping file: /Training/Resources/xpcalendar.gif
+   Skipping file: /Training/Resources/xpdelete.gif
+   Skipping file: /Training/Resources/xpmag.gif
+Publishing package file 'Training':
+Product                                                : LegaSuite GUI Builder for 5250
+Version                                                : Version 10.1.4 (build 10.3923.2.637)
+Compiled filename                                      : C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training\bin\Training.lwr
+Project                                                : C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training
+Emulator work file                                     : Training.lwe
+Panel work file                                        : Training.lwa
+Message file                                           : 
+Translation                                            : 
+Publish version                                        : 
+Company name                                           : rocket
+Application title                                      : Training
+Initial licenses                                       : 1
+Options                                                : Verify for Windows Client only
+Validate (embedded) scripts                            : no
+Set clipping for overlapping fields                    : no
+Sort panel fields                                      : no
+Encryption  method:                                    : None
+Compression method:                                    : Zlib
+Package File is Hashed:                                : yes
+Maximize at start                                      : no
+Assign Mnemonics                                       : no
+Function keys to session                               : yes
+Line 25 message box                                    : no
+Remove pseudo_underline in entry fields                : no
+Allow right click menus on disabled fields             : no
+Allow host cursor move to disabled fields              : no
+Use Parent Background color for static fields          : no
+Allow use other projects data                          : no
+Resize list box row height before adjusting font size  : no
+Fallback package                                       : no
+Application popup position                             : Default
+Script text file codepage                              : 0
+Development package                                    : no
+No errors encountered during publication.
+Process finished in 3.936 seconds
+

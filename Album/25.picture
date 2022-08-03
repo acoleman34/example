@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000025" library="EDUGEN    " member_name="YDMNGOI#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <field name="#HDNGS    " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="4"/>
+            </area>
+            <field name="MNU       " data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field">
+                <area>
+                    <position x="12" y="0"/>
+                    <size cx="50" cy="1"/>
+                </area>
+                <color foreground="blue" conditional="true"/>
+                <color foreground="green" conditional="true"/>
+                <color foreground="magenta" conditional="true"/>
+                <color foreground="red" conditional="true"/>
+                <color foreground="cyan" conditional="true"/>
+                <color foreground="white" conditional="true"/>
+                <color foreground="yellow" conditional="true"/>
+            </field>
+            <field name="*DATE     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field" conditional="true">
+                <area>
+                    <position x="63" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator id="97"/>
+            </field>
+            <field name="TME       " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field" conditional="true">
+                <area>
+                    <position x="72" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator id="97"/>
+            </field>
+            <field value="Level . :" data_length="9" display_length="9" field_type="msgid_text">
+                <area>
+                    <position x="1" y="1"/>
+                    <size cx="9" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="LVL       " data_type="zoned_decimal" data_length="2" display_length="2" usage="output" field_type="field">
+                <area>
+                    <position x="12" y="1"/>
+                    <size cx="2" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value="Type option, press ENTER" data_length="55" display_length="55" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="55" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator id="80"/>
+            </field>
+            <field value="   System:" data_length="12" display_length="12" field_type="msgid_text">
+                <area>
+                    <position x="57" y="2"/>
+                    <size cx="12" cy="1"/>
+                </area>
+                <color foreground="green"/>
+            </field>
+            <field name="SYSNAM    " data_type="alphanumeric" data_length="8" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="71" y="2"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="green"/>
+            </field>
+            <field value="Select one of the following:" data_length="77" display_length="77" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="3"/>
+                    <size cx="77" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator negative="true" id="80"/>
+            </field>
+            <field value="     1-to select option, or enter request on command line" data_length="77" display_length="77" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="3"/>
+                    <size cx="77" cy="1"/>
+                </area>
+                <indicator id="80"/>
+            </field>
+        </field>
+        <field name="*021/024  " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="22"/>
+                <size cx="80" cy="2"/>
+            </area>
+            <field value="F3=Exit" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="79" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="1"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+            </field>
+            <field value="    Confirm:" data_length="12" display_length="12" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="59" y="1"/>
+                    <size cx="12" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field name="##CFSS    " high_intensity="true" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="true" exit_record="true" conditional="true">
+                <area>
+                    <position x="72" y="1"/>
+                    <size cx="1" cy="1"/>
+                </area>
+            </field>
+            <field value="(Y,N)" data_length="5" display_length="5" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="74" y="1"/>
+                    <size cx="5" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                <area>
+                    <position x="78" y="1"/>
+                    <size cx="1" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+        </field>
+    </screen>
+</header>

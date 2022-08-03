@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000030" library="EDUGEN    " member_name="Y2VLLSR#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="f1"/>
+        <action key="f3" conditional="true"/>
+        <action key="f5" conditional="true"/>
+        <action key="f12" conditional="true"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <action key="home" conditional="true"/>
+        <action key="help"/>
+        <field name="#SFLCTL   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="21"/>
+            </area>
+            <field field_type="subfile_container">
+                <field field_type="subfile_header">
+                    <field name="##PGM     " data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                        <area>
+                            <position x="1" y="0"/>
+                            <size cx="10" cy="1"/>
+                        </area>
+                        <color foreground="blue"/>
+                    </field>
+                    <field name="#2LSNO    " high_intensity="true" reverse_image="true" underline="true" data_type="zoned_decimal" non_display="true" data_length="7" display_length="7" usage="output" field_type="field">
+                        <area>
+                            <position x="12" y="0"/>
+                            <size cx="7" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="##USR     " high_intensity="true" reverse_image="true" underline="true" data_type="alphanumeric" non_display="true" data_length="10" display_length="10" usage="output" field_type="field">
+                        <area>
+                            <position x="39" y="0"/>
+                            <size cx="10" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="##JOB     " high_intensity="true" reverse_image="true" underline="true" data_type="alphanumeric" non_display="true" data_length="10" display_length="10" usage="output" field_type="field">
+                        <area>
+                            <position x="50" y="0"/>
+                            <size cx="10" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="*DATE     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field">
+                        <area>
+                            <position x="62" y="0"/>
+                            <size cx="8" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="*TIME     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field">
+                        <area>
+                            <position x="71" y="0"/>
+                            <size cx="8" cy="1"/>
+                        </area>
+                    </field>
+                    <field high_intensity="true" value=" Display Allowed Values" data_length="40" display_length="40" field_type="msgcon_text">
+                        <area>
+                            <position x="29" y="1"/>
+                            <size cx="40" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="##CMP     " high_intensity="true" reverse_image="true" underline="true" data_type="alphanumeric" non_display="true" data_length="40" display_length="40" usage="output" field_type="field">
+                        <area>
+                            <position x="39" y="2"/>
+                            <size cx="40" cy="1"/>
+                        </area>
+                    </field>
+                    <field value="Field . . . :" data_length="13" display_length="13" field_type="msgcon_text">
+                        <area>
+                            <position x="3" y="3"/>
+                            <size cx="13" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#2EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field">
+                        <area>
+                            <position x="17" y="3"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field value="List name . :" data_length="13" display_length="13" field_type="msgcon_text">
+                        <area>
+                            <position x="3" y="4"/>
+                            <size cx="13" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#2CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field">
+                        <area>
+                            <position x="17" y="4"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#2STVL    " underline="true" data_type="alphanumeric" data_length="25" display_length="25" usage="both" lowercase="true" field_type="field">
+                        <area>
+                            <position x="3" y="6"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field value="&lt;== Position" data_length="25" display_length="25" field_type="msgcon_text">
+                        <area>
+                            <position x="29" y="6"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field value="Type options, press Enter." data_length="55" display_length="55" field_type="msgcon_text">
+                        <area>
+                            <position x="1" y="8"/>
+                            <size cx="55" cy="1"/>
+                        </area>
+                    </field>
+                    <field value="X/1=Select." data_length="25" display_length="25" field_type="msgcon_text">
+                        <area>
+                            <position x="3" y="9"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field high_intensity="true" value="Opt" data_length="3" display_length="3" field_type="msgcon_text" conditional="true">
+                        <area>
+                            <position x="1" y="11"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                        <indicator id="81"/>
+                    </field>
+                    <field high_intensity="true" value="Value" data_length="10" display_length="10" field_type="msgcon_text" conditional="true">
+                        <area>
+                            <position x="5" y="11"/>
+                            <size cx="10" cy="1"/>
+                        </area>
+                        <indicator id="81"/>
+                    </field>
+                    <field high_intensity="true" value="Description" data_length="16" display_length="16" field_type="msgcon_text" conditional="true">
+                        <area>
+                            <position x="30" y="11"/>
+                            <size cx="16" cy="1"/>
+                        </area>
+                        <indicator id="81"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="12"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="12"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="12"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="13"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="13"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="13"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="14"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="14"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="14"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="15"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="15"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="15"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="16"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="16"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="16"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="17"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="17"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="17"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="18"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="18"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="18"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="19"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="19"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="19"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1SEL     " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="2" y="20"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1EXVL    " data_type="alphanumeric" data_length="25" display_length="25" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="4" y="20"/>
+                            <size cx="25" cy="1"/>
+                        </area>
+                    </field>
+                    <field name="#1CNTX    " data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="30" y="20"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                    <area>
+                        <position x="78" y="20"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+            </field>
+        </field>
+        <field name="*021/024  " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="22"/>
+                <size cx="80" cy="2"/>
+            </area>
+            <field value="F3=Exit  F5=Refresh  F12=Cancel" data_length="78" display_length="78" field_type="msgcon_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="78" cy="1"/>
+                </area>
+            </field>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="1"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                    <area>
+                        <position x="78" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+            </field>
+        </field>
+    </screen>
+</header>

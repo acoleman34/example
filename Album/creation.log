@@ -1,0 +1,119 @@
+﻿Running the LegaSuite Collector
+LegaSuite Collector version: 8.3 (Embedded in the workbench)
+Import File type: LegaSuite AWHOST File
+Collector Settings:
+Import file encoding: windows-1252
+Output file type: LegaSuite Picture XML files
+Output file encoding: UTF-8
+Output location : C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\.metadata\.plugins\com.seagullsw.eclipse.project.hostbase\.temp\Training\temp
+Importing files: 
+C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training\Resources\Awhost.AWHOST
+Finished Collecting Files
+Finished creating 33 Pictures
+------- Additional MX and Automation workbench actions ------
+Clearing inconsistent identification files:
+
+----- New Pictures -----
+Created 1.picture from EDUGEN_UUAFSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000001.picture
+Created 2.picture from EDUGEN_UUAGEFRD_ZSFLCTL_021024_AW000002.picture
+Created 3.picture from EDUGEN_UUAHSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000003.picture
+Created 4.picture from EDUGEN_UUAJE1RD_ZRCDDTL1_021024_AW000004.picture
+Created 5.picture from EDUGEN_UUAJE1RD_ZRCDKEY_021024_AW000005.picture
+Created 6.picture from EDUGEN_UUAKDFRD_ZSFLCTL_021024_AW000006.picture
+Created 7.picture from EDUGEN_UUALSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000007.picture
+Created 8.picture from EDUGEN_UUAMEFRD_ZSFLCTL_021024_AW000008.picture
+Created 9.picture from EDUGEN_UUANSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000009.picture
+Created 10.picture from EDUGEN_UUAOEFRD_ZSFLCTL_021024_AW000010.picture
+Created 11.picture from EDUGEN_UUAPSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000011.picture
+Created 12.picture from EDUGEN_UUARETRD_ZSFLCTL_021024_AW000012.picture
+Created 13.picture from EDUGEN_UUASSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000013.picture
+Created 14.picture from EDUGEN_UUATEFRD_ZSFLCTL_021024_AW000014.picture
+Created 15.picture from EDUGEN_UUAUSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000015.picture
+Created 16.picture from EDUGEN_UUAVSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000016.picture
+Created 17.picture from EDUGEN_UUAWDFRD_ZSFLCTL_021024_AW000017.picture
+Created 18.picture from EDUGEN_UUAXETRD_ZSFLCTL_021024_AW000018.picture
+Created 19.picture from EDUGEN_UUAYETRD_ZSFLCTL_021024_AW000019.picture
+Created 20.picture from EDUGEN_UUA0PVRD_ZRCDDTL1_021024_AW000020.picture
+Created 21.picture from EDUGEN_UUA2EFRD_ZSFLCTL_021024_AW000021.picture
+Created 22.picture from EDUGEN_YDDSHPR_HPHP_SFCTQ_AW000022.picture
+Created 23.picture from EDUGEN_YDDSHPR_SFCT1_021024_AW000023.picture
+Created 24.picture from EDUGEN_YDDSHP1_SFCT1_021024_AW000024.picture
+Created 25.picture from EDUGEN_YDMNGOI_HDNGS_021024_AW000025.picture
+Created 26.picture from EDUGEN_YDMNGOI_SFCT4_021024_AW000026.picture
+Created 27.picture from EDUGEN_YDMNGOI_HDNGS_SFLCTL_021024_AW000027.picture
+Created 28.picture from EDUGEN_YWMQDSC_SFTXQ_SFCTQ_SFFTQ_AW000028.picture
+Created 29.picture from EDUGEN_Y2CRDBRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000029.picture
+Created 30.picture from EDUGEN_Y2VLLSR_SFLCTL_021024_AW000030.picture
+Created 31.picture from EDUGEN_Y2VLLWR_SFLCTL_CMDKEYS_MSGCTL_AW000031.picture
+Created 32.picture from EDUGEN_Y2VLLWR_SFLCTL2_CMDKEY2_MSGCTL2_AW000032.picture
+Created 33.picture from EDUGEN_Y2WSTOC_TIMEOUT_AW000033.picture
+
+----- Importing finished successfully -----
+Pictures added . . . :   33
+Pictures replaced  . :    0
+Pictures deleted . . :    0
+Running the LegaSuite Collector
+LegaSuite Collector version: 8.3 (Embedded in the workbench)
+Import File type: LegaSuite AWHOST File
+Collector Settings:
+Import file encoding: windows-1252
+Output file type: LegaSuite Picture XML files
+Output file encoding: UTF-8
+Output location : C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\.metadata\.plugins\com.seagullsw.eclipse.project.hostbase\.temp\Training\temp
+Importing files: 
+C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training\Resources\Awhost2.AWHOST
+Finished Collecting Files
+Finished creating 33 Pictures
+
+----- Changed Pictures -----
+Replaced 4.picture with EDUGEN_UUAJE1RD_ZRCDDTL1_021024_AW000004.picture
+
+----- Unchanged Pictures -----
+Ignoring picture EDUGEN_UUAFSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000001.picture, 1.picture is unchanged
+Ignoring picture EDUGEN_UUAGEFRD_ZSFLCTL_021024_AW000002.picture, 2.picture is unchanged
+Ignoring picture EDUGEN_UUAHSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000003.picture, 3.picture is unchanged
+Ignoring picture EDUGEN_UUAJE1RD_ZRCDKEY_021024_AW000005.picture, 5.picture is unchanged
+Ignoring picture EDUGEN_UUAKDFRD_ZSFLCTL_021024_AW000006.picture, 6.picture is unchanged
+Ignoring picture EDUGEN_UUALSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000007.picture, 7.picture is unchanged
+Ignoring picture EDUGEN_UUAMEFRD_ZSFLCTL_021024_AW000008.picture, 8.picture is unchanged
+Ignoring picture EDUGEN_UUANSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000009.picture, 9.picture is unchanged
+Ignoring picture EDUGEN_UUAOEFRD_ZSFLCTL_021024_AW000010.picture, 10.picture is unchanged
+Ignoring picture EDUGEN_UUAPSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000011.picture, 11.picture is unchanged
+Ignoring picture EDUGEN_UUARETRD_ZSFLCTL_021024_AW000012.picture, 12.picture is unchanged
+Ignoring picture EDUGEN_UUASSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000013.picture, 13.picture is unchanged
+Ignoring picture EDUGEN_UUATEFRD_ZSFLCTL_021024_AW000014.picture, 14.picture is unchanged
+Ignoring picture EDUGEN_UUAUSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000015.picture, 15.picture is unchanged
+Ignoring picture EDUGEN_UUAVSRRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000016.picture, 16.picture is unchanged
+Ignoring picture EDUGEN_UUAWDFRD_ZSFLCTL_021024_AW000017.picture, 17.picture is unchanged
+Ignoring picture EDUGEN_UUAXETRD_ZSFLCTL_021024_AW000018.picture, 18.picture is unchanged
+Ignoring picture EDUGEN_UUAYETRD_ZSFLCTL_021024_AW000019.picture, 19.picture is unchanged
+Ignoring picture EDUGEN_UUA0PVRD_ZRCDDTL1_021024_AW000020.picture, 20.picture is unchanged
+Ignoring picture EDUGEN_UUA2EFRD_ZSFLCTL_021024_AW000021.picture, 21.picture is unchanged
+Ignoring picture EDUGEN_YDDSHPR_HPHP_SFCTQ_AW000022.picture, 22.picture is unchanged
+Ignoring picture EDUGEN_YDDSHPR_SFCT1_021024_AW000023.picture, 23.picture is unchanged
+Ignoring picture EDUGEN_YDDSHP1_SFCT1_021024_AW000024.picture, 24.picture is unchanged
+Ignoring picture EDUGEN_YDMNGOI_HDNGS_021024_AW000025.picture, 25.picture is unchanged
+Ignoring picture EDUGEN_YDMNGOI_SFCT4_021024_AW000026.picture, 26.picture is unchanged
+Ignoring picture EDUGEN_YDMNGOI_HDNGS_SFLCTL_021024_AW000027.picture, 27.picture is unchanged
+Ignoring picture EDUGEN_YWMQDSC_SFTXQ_SFCTQ_SFFTQ_AW000028.picture, 28.picture is unchanged
+Ignoring picture EDUGEN_Y2CRDBRD_ZSFLCTL_ZCMDTXT1_ZMSGCTL_AW000029.picture, 29.picture is unchanged
+Ignoring picture EDUGEN_Y2VLLSR_SFLCTL_021024_AW000030.picture, 30.picture is unchanged
+Ignoring picture EDUGEN_Y2VLLWR_SFLCTL_CMDKEYS_MSGCTL_AW000031.picture, 31.picture is unchanged
+Ignoring picture EDUGEN_Y2VLLWR_SFLCTL2_CMDKEY2_MSGCTL2_AW000032.picture, 32.picture is unchanged
+Ignoring picture EDUGEN_Y2WSTOC_TIMEOUT_AW000033.picture, 33.picture is unchanged
+
+----- Change management actions -----
+Executing Identification run
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Listing picture differences for '4.picture'
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Emulator field on location row: 9, column: 2 has been removed
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Emulator field 'V1AGST' (row: 9, column: 28) has been removed
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Emulator field on location row: 9, column: 30 has been removed
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Processing differences for screen '(4)'
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Removing host field 'V1AGST'
+EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) - Removing Checkbox(id: CHECK1)
+
+
+----- Importing finished successfully -----
+Pictures added . . . :    0
+Pictures replaced  . :    1
+Pictures deleted . . :    0

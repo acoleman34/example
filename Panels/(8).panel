@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="10.3923.2.637" modelVersion="1.1" ?>
+<!-- File created on 5/27/22 1:15 PM from 8.picture -->
+<panel xmlns="http://www.seagullsoftware.com/schemas/legasuite/panel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/panel http://www.seagullsoftware.com/schemas/legasuite/paneldefinition3_1.xsd">
+  <properties>
+    <codepage>1252</codepage>
+    <dimensions cx="600" cy="360"/>
+    <general_flags_1>
+      <always_update/>
+    </general_flags_1>
+    <id>(8)</id>
+    <panel_flags>
+      <leave_sec_active/>
+      <update_on_host_change/>
+    </panel_flags>
+    <screen_name>(8)</screen_name>
+    <title>@(TITLE)@</title>
+  </properties>
+  <menu_bar/>
+  <controls>
+    <output>
+      <dimensions x="7" y="10" cx="113" cy="16"/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>ZZPGM</host_field>
+      <id>OUTPUT1</id>
+    </output>
+    <text>
+      <dimensions x="129" y="10" cx="32" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT1</id>
+      <title>@ADD@</title>
+    </text>
+    <text>
+      <dimensions x="129" y="10" cx="60" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT2</id>
+      <title>@ADD@</title>
+    </text>
+    <output>
+      <dimensions x="198" y="10" cx="74" cy="16"/>
+      <FontColor>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <right_aligned/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>*DATE</host_field>
+      <id>OUTPUT2</id>
+    </output>
+    <output>
+      <dimensions x="281" y="10" cx="74" cy="16"/>
+      <FontColor>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <right_aligned/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>ZZTME</host_field>
+      <id>OUTPUT3</id>
+    </output>
+    <text>
+      <dimensions x="7" y="30" cx="67" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT3</id>
+      <title>@POSI@</title>
+    </text>
+    <text>
+      <dimensions x="7" y="50" cx="68" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <state_as_next/>
+      </general_flags_1>
+      <id>TEXT4</id>
+      <title>Last Name</title>
+    </text>
+    <edit>
+      <dimensions x="7" y="70" cx="113" cy="20"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <field_length length="15" field_type="0" check_direct="0"/>
+      <FontColor>
+        <FontStyleName>Input Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border_when_read_only/>
+        <output_when_read_only/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <host_field>Z2AITX</host_field>
+      <id>ENTRY1</id>
+    </edit>
+    <text>
+      <dimensions x="7" y="94" cx="153" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1/>
+      <id>TEXT5</id>
+      <title>Type options, press Enter</title>
+    </text>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="18" y="114" cx="61" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON1</id>
+      <list_name>(LIST)</list_name>
+      <send_key>1</send_key>
+      <string_send>4</string_send>
+      <title>~Delete</title>
+    </button>
+    <list_box>
+      <dimensions x="18" y="145" cx="582" cy="217"/>
+      <divider_header_list>2</divider_header_list>
+      <divider_lines>1</divider_lines>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>List Column - Alphanumeric - 2</FontStyleName>
+        <ColorBackground>61</ColorBackground>
+      </FontColor>
+      <FontColorHeader>
+        <FontStyleName>List Header - 2</FontStyleName>
+        <ColorForeground>61</ColorForeground>
+        <ColorBackground>67</ColorBackground>
+      </FontColorHeader>
+      <FontColorListAlternate>
+        <ColorBackground>16</ColorBackground>
+      </FontColorListAlternate>
+      <FontColorListDivider>
+        <ColorBackground>16</ColorBackground>
+      </FontColorListDivider>
+      <FontColorSecondary>
+        <FontStyleName>List Column - Alphanumeric</FontStyleName>
+      </FontColorSecondary>
+      <general_flags_1>
+        <horizontal_scroll_bar/>
+        <no_border/>
+      </general_flags_1>
+      <header_height>19</header_height>
+      <host_field>Z1SEL</host_field>
+      <id>(LIST)</id>
+      <key_page_down>11</key_page_down>
+      <key_page_up>10</key_page_up>
+      <list_box_flags>
+        <expandable/>
+        <no_remove_end_plussign/>
+        <selection_implied/>
+        <top_bottom_skip/>
+      </list_box_flags>
+      <list_column>
+        <column_width>150</column_width>
+        <column_width_chars>15</column_width_chars>
+        <field_length length="15" field_type="0" check_direct="0"/>
+        <FontColor>
+          <ColorBackground>0</ColorBackground>
+        </FontColor>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>Z1AHTX</host_field>
+        <id>LSTCOL1</id>
+        <list_column_flags>
+          <editable/>
+        </list_column_flags>
+        <title>First Name</title>
+      </list_column>
+      <list_column>
+        <column_width>150</column_width>
+        <column_width_chars>15</column_width_chars>
+        <field_length length="15" field_type="0" check_direct="0"/>
+        <FontColor>
+          <ColorBackground>0</ColorBackground>
+        </FontColor>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>Z1AITX</host_field>
+        <id>LSTCOL2</id>
+        <list_column_flags>
+          <editable/>
+        </list_column_flags>
+        <title>Last Name</title>
+      </list_column>
+      <list_column>
+        <column_width>77</column_width>
+        <column_width_chars>1</column_width_chars>
+        <field_length length="1" field_type="0" check_direct="0"/>
+        <FontColor>
+          <ColorBackground>0</ColorBackground>
+        </FontColor>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>Z1ACST</host_field>
+        <id>LSTCOL3</id>
+        <list_column_flags>
+          <editable/>
+        </list_column_flags>
+        <title>Emp Type</title>
+      </list_column>
+      <list_column>
+        <column_width>120</column_width>
+        <column_width_chars>12</column_width_chars>
+        <field_length length="12" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+          <cursor_selected/>
+          <right_aligned/>
+        </general_flags_1>
+        <host_field>Z1AENB</host_field>
+        <id>LSTCOL4</id>
+        <list_column_flags>
+          <align_right/>
+          <editable/>
+        </list_column_flags>
+        <listbox_color_conversion_border>1</listbox_color_conversion_border>
+        <title>Phone</title>
+      </list_column>
+      <list_column>
+        <column_width>60</column_width>
+        <column_width_chars>6</column_width_chars>
+        <field_length length="6" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+          <cursor_selected/>
+          <right_aligned/>
+        </general_flags_1>
+        <host_field>Z1ALNB</host_field>
+        <id>LSTCOL5</id>
+        <list_column_flags>
+          <align_right/>
+          <editable/>
+        </list_column_flags>
+        <listbox_color_conversion_border>1</listbox_color_conversion_border>
+        <title>Mgr</title>
+      </list_column>
+      <list_column>
+        <column_width>150</column_width>
+        <column_width_chars>15</column_width_chars>
+        <field_length length="15" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>ZRAWTX</host_field>
+        <id>LSTCOL6</id>
+        <list_column_flags/>
+      </list_column>
+      <list_column>
+        <column_width>110</column_width>
+        <column_width_chars>11</column_width_chars>
+        <field_length length="11" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>BRAN</host_field>
+        <id>LSTCOL7</id>
+        <list_column_flags>
+          <linebreak/>
+        </list_column_flags>
+      </list_column>
+      <list_column>
+        <column_width>60</column_width>
+        <column_width_chars>6</column_width_chars>
+        <field_length length="6" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+          <cursor_selected/>
+          <right_aligned/>
+        </general_flags_1>
+        <host_field>Z1ADCD</host_field>
+        <id>LSTCOL8</id>
+        <list_column_flags>
+          <align_right/>
+          <editable/>
+        </list_column_flags>
+        <listbox_color_conversion_border>1</listbox_color_conversion_border>
+      </list_column>
+      <list_column>
+        <column_width>150</column_width>
+        <column_width_chars>15</column_width_chars>
+        <field_length length="15" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>ZRAETX</host_field>
+        <id>LSTCOL9</id>
+        <list_column_flags/>
+      </list_column>
+    </list_box>
+    <checkbox>
+      <dimensions x="198" y="366" cx="85" cy="20"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Check Box</FontStyleName>
+      </FontColor>
+      <host_field>VZCFCD</host_field>
+      <id>CHECK1</id>
+      <state_invalid>2</state_invalid>
+      <title>C~ONFIRM</title>
+      <value_selected>Y</value_selected>
+      <value_unselected>N</value_unselected>
+    </checkbox>
+    <button>
+      <dimensions x="4" y="467" cx="57" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <general_flags_2>
+        <default/>
+        <visibility_equal_hide/>
+        <visibility_not_present_disable/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <id>(OK)</id>
+      <send_key>1</send_key>
+      <title>OK</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="65" y="467" cx="36" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON2</id>
+      <send_key>4</send_key>
+      <title>~F1</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="105" y="467" cx="66" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <autolength/>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON3</id>
+      <send_key>6</send_key>
+      <title>~Exit</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="175" y="467" cx="66" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON4</id>
+      <send_key>7</send_key>
+      <title>~Prompt</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="245" y="467" cx="36" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON5</id>
+      <send_key>8</send_key>
+      <title>F~5</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="285" y="467" cx="36" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON6</id>
+      <send_key>11</send_key>
+      <title>F~8</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="325" y="467" cx="46" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON7</id>
+      <send_key>12</send_key>
+      <title>~Add</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="375" y="467" cx="70" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON8</id>
+      <send_key>12</send_key>
+      <title>~Change</title>
+    </button>
+    <output>
+      <dimensions x="5" y="497" cx="733" cy="20"/>
+      <field_flags/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>(MESSAGE)</host_field>
+      <id>OUTPUT4</id>
+    </output>
+  </controls>
+</panel>

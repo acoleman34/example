@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Identification>
+    <IdentificationStatusList>
+        <IdentificationStatus location="Album/1.picture" name="EDUGEN/UUAFSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="1" state="Unique" redundant="false" form="MovablePopup" cx="50" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/2.picture" name="EDUGEN/UUAGEFRD(ZSFLCTL+*021/024)" number="2" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/3.picture" name="EDUGEN/UUAHSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="3" state="Unique" redundant="false" form="MovablePopup" cx="60" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/4.picture" name="EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024)" number="4" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/5.picture" name="EDUGEN/UUAJE1RD(ZRCDKEY+*021/024)" number="5" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/6.picture" name="EDUGEN/UUAKDFRD(ZSFLCTL+*021/024)" number="6" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/7.picture" name="EDUGEN/UUALSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="7" state="Unique" redundant="false" form="MovablePopup" cx="64" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/8.picture" name="EDUGEN/UUAMEFRD(ZSFLCTL+*021/024)" number="8" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/9.picture" name="EDUGEN/UUANSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="9" state="Unique" redundant="false" form="MovablePopup" cx="50" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/10.picture" name="EDUGEN/UUAOEFRD(ZSFLCTL+*021/024)" number="10" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/11.picture" name="EDUGEN/UUAPSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="11" state="Unique" redundant="false" form="MovablePopup" cx="59" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/12.picture" name="EDUGEN/UUARETRD(ZSFLCTL+*021/024)" number="12" state="Conditional" redundant="false" form="Screen" cx="80" cy="24" conditionalValueCount="1" conditionalDefaultCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/13.picture" name="EDUGEN/UUASSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="13" state="Unique" redundant="false" form="MovablePopup" cx="60" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/14.picture" name="EDUGEN/UUATEFRD(ZSFLCTL+*021/024)" number="14" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/15.picture" name="EDUGEN/UUAUSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="15" state="Unique" redundant="false" form="MovablePopup" cx="64" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/16.picture" name="EDUGEN/UUAVSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="16" state="Unique" redundant="false" form="MovablePopup" cx="64" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/17.picture" name="EDUGEN/UUAWDFRD(ZSFLCTL+*021/024)" number="17" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/18.picture" name="EDUGEN/UUAXETRD(ZSFLCTL+*021/024)" number="18" state="Conditional" redundant="false" form="Screen" cx="80" cy="24" conditionalValueCount="1" conditionalDefaultCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/19.picture" name="EDUGEN/UUAYETRD(ZSFLCTL+*021/024)" number="19" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/20.picture" name="EDUGEN/UUA0PVRD(ZRCDDTL1+*021/024)" number="20" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/21.picture" name="EDUGEN/UUA2EFRD(ZSFLCTL+*021/024)" number="21" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/22.picture" name="EDUGEN/YDDSHPR#(#HPHP##+#SFCT#Q)" number="22" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/23.picture" name="EDUGEN/YDDSHPR#(#SFCT#1+*021/024)" number="23" state="UniqueEtc" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="3" conditionalValueCount="1" conditionalDefaultCount="1" ambiguousCount="3" />
+        <IdentificationStatus location="Album/24.picture" name="EDUGEN/YDDSHP1#(#SFCT#1+*021/024)" number="24" state="Conditional" redundant="false" form="Screen" cx="80" cy="24" conditionalDefaultCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/25.picture" name="EDUGEN/YDMNGOI#(#HDNGS+*021/024)" number="25" state="Conditional" redundant="false" form="Screen" cx="80" cy="24" conditionalDefaultCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/26.picture" name="EDUGEN/YDMNGOI#(#SFCT#4+*021/024)" number="26" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/27.picture" name="EDUGEN/YDMNGOI#(#HDNGS+#SFLCTL+*021/024)" number="27" state="Conditional" redundant="false" form="Screen" cx="80" cy="24" conditionalValueCount="1" conditionalDefaultCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/28.picture" name="EDUGEN/YWMQDSC#(#SFTX#Q+#SFCT#Q+#SFFT#Q)" number="28" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/29.picture" name="EDUGEN/Y2CRDBRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL)" number="29" state="Unique" redundant="false" form="MovablePopup" cx="42" cy="17" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/30.picture" name="EDUGEN/Y2VLLSR#(#SFLCTL+*021/024)" number="30" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+        <IdentificationStatus location="Album/31.picture" name="EDUGEN/Y2VLLWR#(#SFLCTL+#CMDKEYS+#MSGCTL)" number="31" state="Unique" redundant="false" form="MovablePopup" cx="42" cy="13" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/32.picture" name="EDUGEN/Y2VLLWR#(#SFLCTL2+#CMDKEY2+#MSGCTL2)" number="32" state="Unique" redundant="false" form="MovablePopup" cx="79" cy="23" uniqueCount="2" ambiguousCount="0" />
+        <IdentificationStatus location="Album/33.picture" name="EDUGEN/Y2WSTOC#(#TIMEOUT)" number="33" state="Unique" redundant="false" form="Screen" cx="80" cy="24" uniqueCount="1" ambiguousCount="0" />
+    </IdentificationStatusList>
+</Identification>

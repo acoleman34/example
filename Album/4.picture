@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:59:05.431-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000004" library="EDUGEN    " member_name="UUAJE1RD  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="f1"/>
+        <action key="f3" conditional="true"/>
+        <action key="f4" conditional="true"/>
+        <action key="f5" conditional="true"/>
+        <action key="f11" conditional="true"/>
+        <action key="f12" conditional="true"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <action key="help"/>
+        <field name="ZRCDDTL1  " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="16"/>
+            </area>
+            <field name="ZZPGM     " data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value="ADD" data_length="7" display_length="7" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="12" y="0"/>
+                    <size cx="7" cy="1"/>
+                </area>
+                <indicator id="89"/>
+            </field>
+            <field value="CHANGE" data_length="7" display_length="7" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="12" y="0"/>
+                    <size cx="7" cy="1"/>
+                </area>
+                <indicator negative="true" id="89"/>
+            </field>
+            <field name="*DATE     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="62" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field name="ZZTME     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="71" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="Edit Customer Details" data_length="21" display_length="21" field_type="fixed_text">
+                <area>
+                    <position x="30" y="1"/>
+                    <size cx="21" cy="1"/>
+                </area>
+            </field>
+            <field value="Company Name  . . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="3"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AYTX    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="25" display_length="25" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="3"/>
+                    <size cx="25" cy="1"/>
+                </area>
+            </field>
+            <field value="Contact First Name  . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="4"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AJTX    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="4"/>
+                    <size cx="15" cy="1"/>
+                </area>
+            </field>
+            <field value="Contact Last Name . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="5"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AKTX    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="5"/>
+                    <size cx="15" cy="1"/>
+                </area>
+            </field>
+            <field value="Customer Status . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="6"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1ADST    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="6"/>
+                    <size cx="1" cy="1"/>
+                </area>
+            </field>
+            <field value="A = Active    I = Inactive   P = Pending" data_length="40" display_length="40" field_type="fixed_text">
+                <area>
+                    <position x="29" y="6"/>
+                    <size cx="40" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value="Customer Credit Limit ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="7"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AAPR    " reverse_image="conditional" underline="conditional" data_type="zoned_decimal" data_length="7" display_length="8" decimal_positions="2" usage="both" field_type="field" position_cursor="conditional" exit_required="true">
+                <area>
+                    <position x="27" y="7"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field value="First Time Buyer? . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="9"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="V1AHST    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="9"/>
+                    <size cx="1" cy="1"/>
+                </area>
+            </field>
+            <field value="(Y/N)" data_length="5" display_length="5" field_type="fixed_text">
+                <area>
+                    <position x="29" y="9"/>
+                    <size cx="5" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value="Customer Street . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="10"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1ALTX    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="25" display_length="25" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="10"/>
+                    <size cx="25" cy="1"/>
+                </area>
+            </field>
+            <field value="Customer City . . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="11"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AMTX    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="25" display_length="25" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="11"/>
+                    <size cx="25" cy="1"/>
+                </area>
+            </field>
+            <field value="State Code  . . . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="12"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AFCD    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="2" display_length="2" usage="both" field_type="field" position_cursor="conditional" exit_required="true">
+                <area>
+                    <position x="27" y="12"/>
+                    <size cx="2" cy="1"/>
+                </area>
+            </field>
+            <field value="Zip" data_length="3" display_length="3" field_type="fixed_text">
+                <area>
+                    <position x="30" y="12"/>
+                    <size cx="3" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AGNB    " reverse_image="conditional" underline="conditional" data_type="zoned_decimal" data_length="5" display_length="6" usage="both" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="34" y="12"/>
+                    <size cx="6" cy="1"/>
+                </area>
+            </field>
+            <field value="Customer Phone  . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="13"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1AHNB    " reverse_image="conditional" underline="conditional" data_type="zoned_decimal" data_length="10" display_length="12" usage="both" field_type="field" position_cursor="conditional" exit_required="true">
+                <area>
+                    <position x="27" y="13"/>
+                    <size cx="12" cy="1"/>
+                </area>
+            </field>
+            <field value="X" data_length="1" display_length="1" field_type="fixed_text">
+                <area>
+                    <position x="40" y="13"/>
+                    <size cx="1" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1ANNB    " reverse_image="conditional" underline="conditional" data_type="zoned_decimal" data_length="7" display_length="7" usage="both" field_type="field" position_cursor="conditional" exit_required="true">
+                <area>
+                    <position x="42" y="13"/>
+                    <size cx="7" cy="1"/>
+                </area>
+            </field>
+            <field value="Email . . . . . . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="14"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1ACNA    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="30" display_length="30" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="14"/>
+                    <size cx="30" cy="1"/>
+                </area>
+            </field>
+            <field value="Web Site  . . . . . . ." data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="1" y="15"/>
+                    <size cx="23" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="Z1ADNA    " reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="30" display_length="30" usage="both" lowercase="true" field_type="field" position_cursor="conditional">
+                <area>
+                    <position x="27" y="15"/>
+                    <size cx="30" cy="1"/>
+                </area>
+            </field>
+        </field>
+        <field name="*021/024  " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="22"/>
+                <size cx="80" cy="2"/>
+            </area>
+            <field value="F3=Exit   F4=Prompt" data_length="19" display_length="19" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="19" cy="1"/>
+                </area>
+                <indicator id="89"/>
+            </field>
+            <field value="F3=Exit   F4=Prompt   F11=Delete" data_length="32" display_length="32" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="32" cy="1"/>
+                </area>
+                <indicator negative="true" id="89"/>
+            </field>
+            <field value="F3=Exit   F4=Prompt   F9=Add" data_length="28" display_length="28" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="28" cy="1"/>
+                </area>
+                <indicator negative="true" id="89"/>
+            </field>
+            <field value="F3=Exit   F4=Prompt   F9=Change" data_length="31" display_length="31" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="31" cy="1"/>
+                </area>
+                <indicator id="89"/>
+            </field>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="1"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+            </field>
+            <field value="CONFIRM:" data_length="8" display_length="8" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="63" y="1"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field name="VZCFCD    " high_intensity="true" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" exit_record="true" conditional="true">
+                <area>
+                    <position x="72" y="1"/>
+                    <size cx="1" cy="1"/>
+                </area>
+            </field>
+            <field value="(Y/N)" data_length="5" display_length="5" field_type="fixed_text" conditional="true">
+                <area>
+                    <position x="74" y="1"/>
+                    <size cx="5" cy="1"/>
+                </area>
+            </field>
+            <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                <area>
+                    <position x="78" y="1"/>
+                    <size cx="1" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+        </field>
+        <field field_type="screen_part">
+            <field value="Value not found in list - Use '?' to determine allowed values." data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="24"/>
+                    <size cx="78" cy="1"/>
+                </area>
+            </field>
+        </field>
+    </screen>
+</header>

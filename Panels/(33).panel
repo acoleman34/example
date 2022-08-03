@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="10.3923.2.637" modelVersion="1.1" ?>
+<!-- File created on 5/27/22 1:15 PM from 33.picture -->
+<panel xmlns="http://www.seagullsoftware.com/schemas/legasuite/panel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/panel http://www.seagullsoftware.com/schemas/legasuite/paneldefinition3_1.xsd">
+  <properties>
+    <codepage>1252</codepage>
+    <dimensions cx="600" cy="360"/>
+    <general_flags_1>
+      <always_update/>
+    </general_flags_1>
+    <id>(33)</id>
+    <panel_flags>
+      <leave_sec_active/>
+      <update_on_host_change/>
+    </panel_flags>
+    <screen_name>(33)</screen_name>
+    <title>@(TITLE)@</title>
+  </properties>
+  <menu_bar/>
+  <controls>
+    <text>
+      <dimensions x="9" y="10" cx="38" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT1</id>
+      <title>@000@</title>
+    </text>
+    <output>
+      <dimensions x="56" y="10" cx="113" cy="16"/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>JOB</host_field>
+      <id>OUTPUT1</id>
+    </output>
+    <output>
+      <dimensions x="178" y="10" cx="74" cy="16"/>
+      <FontColor>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <right_aligned/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>*DATE</host_field>
+      <id>OUTPUT2</id>
+    </output>
+    <output>
+      <dimensions x="261" y="10" cx="74" cy="16"/>
+      <FontColor>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <right_aligned/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>*TIME</host_field>
+      <id>OUTPUT3</id>
+    </output>
+    <text>
+      <dimensions x="7" y="30" cx="264" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT2</id>
+      <title>@7351@</title>
+    </text>
+    <text>
+      <dimensions x="7" y="50" cx="397" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT3</id>
+      <title>@7352@</title>
+    </text>
+    <text>
+      <dimensions x="7" y="70" cx="152" cy="16"/>
+      <FontColor>
+        <FontStyleName>Text Label</FontStyleName>
+        <ColorForeground>1</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_1>
+        <always_update/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_equal_hide/>
+      </general_flags_2>
+      <id>TEXT4</id>
+      <title>@7353@</title>
+    </text>
+    <output>
+      <dimensions x="7" y="90" cx="353" cy="16"/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>Y2WSTOA</host_field>
+      <id>OUTPUT4</id>
+    </output>
+    <button>
+      <dimensions x="4" y="467" cx="57" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <general_flags_2>
+        <default/>
+        <visibility_equal_hide/>
+        <visibility_not_present_disable/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <id>(OK)</id>
+      <send_key>1</send_key>
+      <title>OK</title>
+    </button>
+    <output>
+      <dimensions x="5" y="497" cx="733" cy="20"/>
+      <field_flags/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>(MESSAGE)</host_field>
+      <id>OUTPUT5</id>
+    </output>
+  </controls>
+</panel>

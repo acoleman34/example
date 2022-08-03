@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="10.3923.2.637" modelVersion="1.1" ?>
+<!-- File created on 5/27/22 1:15 PM from 24.picture -->
+<panel xmlns="http://www.seagullsoftware.com/schemas/legasuite/panel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/panel http://www.seagullsoftware.com/schemas/legasuite/paneldefinition3_1.xsd">
+  <properties>
+    <codepage>1252</codepage>
+    <dimensions cx="600" cy="360"/>
+    <general_flags_1>
+      <always_update/>
+    </general_flags_1>
+    <id>(24)</id>
+    <panel_flags>
+      <leave_sec_active/>
+      <update_on_host_change/>
+    </panel_flags>
+    <screen_name>(24)</screen_name>
+  </properties>
+  <menu_bar/>
+  <controls>
+    <output>
+      <dimensions x="7" y="10" cx="556" cy="16"/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+        <ColorBackground>16</ColorBackground>
+      </FontColor>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>##TXTL</host_field>
+      <id>OUTPUT1</id>
+    </output>
+    <list_box>
+      <dimensions x="7" y="30" cx="593" cy="354"/>
+      <divider_columns>0</divider_columns>
+      <divider_header>0</divider_header>
+      <divider_header_list>2</divider_header_list>
+      <divider_lines>2</divider_lines>
+      <field_flags/>
+      <FontColor>
+        <FontStyleName>List Column - Alphanumeric - 2</FontStyleName>
+        <ColorForeground>0</ColorForeground>
+        <ColorBackground>61</ColorBackground>
+      </FontColor>
+      <FontColorHeader>
+        <FontStyleName>List Header - 2</FontStyleName>
+        <ColorForeground>61</ColorForeground>
+        <ColorBackground>67</ColorBackground>
+      </FontColorHeader>
+      <FontColorListAlternate>
+        <ColorForeground>0</ColorForeground>
+        <ColorBackground>16</ColorBackground>
+      </FontColorListAlternate>
+      <FontColorListDivider>
+        <ColorBackground>16</ColorBackground>
+      </FontColorListDivider>
+      <FontColorSecondary>
+        <FontStyleName>List Header</FontStyleName>
+      </FontColorSecondary>
+      <general_flags_1>
+        <autolength/>
+        <horizontal_scroll_bar/>
+        <no_border/>
+      </general_flags_1>
+      <general_flags_3>
+        <no_focus_line/>
+      </general_flags_3>
+      <header_height>0</header_height>
+      <id>(LIST)</id>
+      <key_page_down>11</key_page_down>
+      <key_page_up>10</key_page_up>
+      <list_box_flags>
+        <expandable/>
+        <no_remove_end_plussign/>
+        <selection_none/>
+        <top_bottom_skip/>
+      </list_box_flags>
+      <list_column>
+        <column_width>858</column_width>
+        <column_width_chars>78</column_width_chars>
+        <field_length length="78" field_type="0" check_direct="0"/>
+        <general_flags_1>
+          <autolength/>
+        </general_flags_1>
+        <host_field>##LN</host_field>
+        <id>LSTCOL1</id>
+        <list_column_flags/>
+      </list_column>
+    </list_box>
+    <button>
+      <dimensions x="4" y="467" cx="57" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <general_flags_2>
+        <default/>
+        <visibility_equal_hide/>
+        <visibility_not_present_disable/>
+        <visibility_output_data_disable/>
+        <visibility_output_empty_disable/>
+      </general_flags_2>
+      <id>(OK)</id>
+      <send_key>1</send_key>
+      <title>OK</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="65" y="467" cx="103" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON1</id>
+      <send_key>4</send_key>
+      <title>~Help for help</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="172" y="467" cx="66" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <autolength/>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON2</id>
+      <send_key>6</send_key>
+      <title>~Exit</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="242" y="467" cx="36" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON3</id>
+      <send_key>11</send_key>
+      <title>~F8</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="282" y="467" cx="83" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON4</id>
+      <send_key>12</send_key>
+      <title>~Keys help</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="369" y="467" cx="57" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON5</id>
+      <send_key>14</send_key>
+      <title>~Index</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="430" y="467" cx="66" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON6</id>
+      <send_key>15</send_key>
+      <title>~Cancel</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="500" y="467" cx="43" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON7</id>
+      <send_key>17</send_key>
+      <title>F~14</title>
+    </button>
+    <button>
+      <button_layout>3</button_layout>
+      <dimensions x="547" y="467" cx="43" cy="24"/>
+      <field_flags>
+        <tab_stop/>
+      </field_flags>
+      <FontColor>
+        <FontStyleName>Push Button</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <centered/>
+      </general_flags_1>
+      <general_flags_2>
+        <state_dependent/>
+      </general_flags_2>
+      <general_flags_3>
+        <mouse_over_hand/>
+        <non_default_align/>
+      </general_flags_3>
+      <id>BUTTON8</id>
+      <send_key>18</send_key>
+      <title>F1~5</title>
+    </button>
+    <output>
+      <dimensions x="5" y="497" cx="733" cy="20"/>
+      <field_flags/>
+      <FontColor>
+        <FontStyleName>Output Field - Alphanumeric</FontStyleName>
+      </FontColor>
+      <general_flags_1>
+        <no_border/>
+      </general_flags_1>
+      <general_flags_2>
+        <visibility_not_present_hide/>
+      </general_flags_2>
+      <host_field>(MESSAGE)</host_field>
+      <id>OUTPUT2</id>
+    </output>
+  </controls>
+</panel>

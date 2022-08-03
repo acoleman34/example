@@ -1,0 +1,42 @@
+﻿-- Synchronization Report --
+
+Picture album: C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training\Album
+
+-- EDUGEN/UUAJE1RD(ZRCDDTL1+*021/024) differences; was picture 4.picture, now picture EDUGEN_UUAJE1RD_ZRCDDTL1_021024_AW000004.picture --
+Removed at 009,002: Text "Customer Preferred? . .".
+Removed at 009,028: Field V1AGST.
+Removed at 009,030: Text "(Y/N)".
+
+Picture 1.picture: not changed, EDUGEN/UUAFSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 2.picture: not changed, EDUGEN/UUAGEFRD(ZSFLCTL+*021/024).
+Picture 3.picture: not changed, EDUGEN/UUAHSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 5.picture: not changed, EDUGEN/UUAJE1RD(ZRCDKEY+*021/024).
+Picture 6.picture: not changed, EDUGEN/UUAKDFRD(ZSFLCTL+*021/024).
+Picture 7.picture: not changed, EDUGEN/UUALSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 8.picture: not changed, EDUGEN/UUAMEFRD(ZSFLCTL+*021/024).
+Picture 9.picture: not changed, EDUGEN/UUANSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 10.picture: not changed, EDUGEN/UUAOEFRD(ZSFLCTL+*021/024).
+Picture 11.picture: not changed, EDUGEN/UUAPSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 12.picture: not changed, EDUGEN/UUARETRD(ZSFLCTL+*021/024).
+Picture 13.picture: not changed, EDUGEN/UUASSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 14.picture: not changed, EDUGEN/UUATEFRD(ZSFLCTL+*021/024).
+Picture 15.picture: not changed, EDUGEN/UUAUSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 16.picture: not changed, EDUGEN/UUAVSRRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 17.picture: not changed, EDUGEN/UUAWDFRD(ZSFLCTL+*021/024).
+Picture 18.picture: not changed, EDUGEN/UUAXETRD(ZSFLCTL+*021/024).
+Picture 19.picture: not changed, EDUGEN/UUAYETRD(ZSFLCTL+*021/024).
+Picture 20.picture: not changed, EDUGEN/UUA0PVRD(ZRCDDTL1+*021/024).
+Picture 21.picture: not changed, EDUGEN/UUA2EFRD(ZSFLCTL+*021/024).
+Picture 22.picture: not changed, EDUGEN/YDDSHPR#(#HPHP##+#SFCT#Q).
+Picture 23.picture: not changed, EDUGEN/YDDSHPR#(#SFCT#1+*021/024).
+Picture 24.picture: not changed, EDUGEN/YDDSHP1#(#SFCT#1+*021/024).
+Picture 25.picture: not changed, EDUGEN/YDMNGOI#(#HDNGS+*021/024).
+Picture 26.picture: not changed, EDUGEN/YDMNGOI#(#SFCT#4+*021/024).
+Picture 27.picture: not changed, EDUGEN/YDMNGOI#(#HDNGS+#SFLCTL+*021/024).
+Picture 28.picture: not changed, EDUGEN/YWMQDSC#(#SFTX#Q+#SFCT#Q+#SFFT#Q).
+Picture 29.picture: not changed, EDUGEN/Y2CRDBRD(ZSFLCTL+ZCMDTXT1+ZMSGCTL).
+Picture 30.picture: not changed, EDUGEN/Y2VLLSR#(#SFLCTL+*021/024).
+Picture 31.picture: not changed, EDUGEN/Y2VLLWR#(#SFLCTL+#CMDKEYS+#MSGCTL).
+Picture 32.picture: not changed, EDUGEN/Y2VLLWR#(#SFLCTL2+#CMDKEY2+#MSGCTL2).
+Picture 33.picture: not changed, EDUGEN/Y2WSTOC#(#TIMEOUT).
+

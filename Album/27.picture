@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000027" library="EDUGEN    " member_name="YDMNGOI#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="f1" conditional="true"/>
+        <action key="f3" conditional="true"/>
+        <action key="f4" conditional="true"/>
+        <action key="f6" conditional="true"/>
+        <action key="f8" conditional="true"/>
+        <action key="f9" conditional="true"/>
+        <action key="f10" conditional="true"/>
+        <action key="f12" conditional="true"/>
+        <action key="f14" conditional="true"/>
+        <action key="f16" conditional="true"/>
+        <action key="f22" conditional="true"/>
+        <action key="f23" conditional="true"/>
+        <action key="f24" conditional="true"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <action key="help" conditional="true"/>
+        <field name="#HDNGS    " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="4"/>
+            </area>
+            <field name="MNU       " data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field">
+                <area>
+                    <position x="12" y="0"/>
+                    <size cx="50" cy="1"/>
+                </area>
+                <color foreground="blue" conditional="true"/>
+                <color foreground="green" conditional="true"/>
+                <color foreground="magenta" conditional="true"/>
+                <color foreground="red" conditional="true"/>
+                <color foreground="cyan" conditional="true"/>
+                <color foreground="white" conditional="true"/>
+                <color foreground="yellow" conditional="true"/>
+            </field>
+            <field name="*DATE     " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field" conditional="true">
+                <area>
+                    <position x="63" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator id="97"/>
+            </field>
+            <field name="TME       " data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field" conditional="true">
+                <area>
+                    <position x="72" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator id="97"/>
+            </field>
+            <field value="Level . :" data_length="9" display_length="9" field_type="msgid_text">
+                <area>
+                    <position x="1" y="1"/>
+                    <size cx="9" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="LVL       " data_type="zoned_decimal" data_length="2" display_length="2" usage="output" field_type="field">
+                <area>
+                    <position x="12" y="1"/>
+                    <size cx="2" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value="Type option, press ENTER" data_length="55" display_length="55" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="55" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator id="80"/>
+            </field>
+            <field value="   System:" data_length="12" display_length="12" field_type="msgid_text">
+                <area>
+                    <position x="57" y="2"/>
+                    <size cx="12" cy="1"/>
+                </area>
+                <color foreground="green"/>
+            </field>
+            <field name="SYSNAM    " data_type="alphanumeric" data_length="8" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="71" y="2"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="green"/>
+            </field>
+            <field value="Select one of the following:" data_length="77" display_length="77" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="3"/>
+                    <size cx="77" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+                <indicator negative="true" id="80"/>
+            </field>
+            <field value="     1-to select option, or enter request on command line" data_length="77" display_length="77" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="3"/>
+                    <size cx="77" cy="1"/>
+                </area>
+                <indicator id="80"/>
+            </field>
+        </field>
+        <field name="#SFLCTL   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="4"/>
+                <size cx="80" cy="19"/>
+            </area>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="0"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="0"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="0"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="0"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="0"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="1"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="1"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="1"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="1"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="1"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="2"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="2"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="2"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="2"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="2"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="3"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="3"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="3"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="3"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="3"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="4"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="4"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="4"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="4"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="4"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="5"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="5"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="5"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="5"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="5"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="6"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="6"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="6"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="6"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="6"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="7"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="7"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="7"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="7"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="7"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="8"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="8"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="8"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="8"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="8"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="9"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="9"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="9"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="9"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="9"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="10"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="10"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="10"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="10"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="10"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="11"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="11"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="11"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="11"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="11"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="12"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="12"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="12"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="12"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="12"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPPF    " high_intensity="conditional" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="2" y="13"/>
+                            <size cx="15" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#1OPSL    " column_separator="conditional" high_intensity="true" underline="conditional" protected="conditional" data_type="alphanumeric" non_display="conditional" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                        <area>
+                            <position x="18" y="13"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQOPSS    " data_type="alphanumeric" data_length="1" display_length="1" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="20" y="13"/>
+                            <size cx="1" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="#QOPCD    " data_type="alphanumeric" data_length="3" display_length="3" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="22" y="13"/>
+                            <size cx="3" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="YQMNTX    " high_intensity="conditional" reverse_image="conditional" underline="conditional" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="26" y="13"/>
+                            <size cx="50" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                    </field>
+                </field>
+                <field name=".MOREIND  " value="     More..." data_length="12" display_length="12" field_type="subfile_end_more" conditional="true">
+                    <area>
+                        <position x="67" y="14"/>
+                        <size cx="12" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+                <field name=".BOTTIND  " value="      Bottom" data_length="12" display_length="12" field_type="subfile_end_bottom" conditional="true">
+                    <area>
+                        <position x="67" y="14"/>
+                        <size cx="12" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+            </field>
+            <field field_type="subfile_container">
+                <field field_type="subfile_header">
+                    <field value="Selection" data_length="20" display_length="20" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="15"/>
+                            <size cx="20" cy="1"/>
+                        </area>
+                        <color foreground="green"/>
+                        <indicator negative="true" id="77"/>
+                    </field>
+                    <field value="Selection or command" data_length="20" display_length="20" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="15"/>
+                            <size cx="20" cy="1"/>
+                        </area>
+                        <color foreground="green"/>
+                        <indicator negative="true" id="81"/>
+                        <indicator id="77"/>
+                        <indicator id="75"/>
+                    </field>
+                    <field value="Selection or command" data_length="20" display_length="20" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="15"/>
+                            <size cx="20" cy="1"/>
+                        </area>
+                        <color foreground="green"/>
+                        <indicator negative="true" id="81"/>
+                        <indicator id="77"/>
+                        <indicator negative="true" id="75"/>
+                    </field>
+                    <field value="===&gt;" data_length="4" display_length="4" field_type="msgid_text">
+                        <area>
+                            <position x="1" y="16"/>
+                            <size cx="4" cy="1"/>
+                        </area>
+                        <color foreground="green"/>
+                    </field>
+                    <field name="##RQD2    " high_intensity="true" underline="true" data_type="alphanumeric" data_length="2" display_length="2" usage="both" lowercase="true" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="6" y="16"/>
+                            <size cx="2" cy="1"/>
+                        </area>
+                        <color foreground="green"/>
+                        <indicator id="81"/>
+                    </field>
+                    <field name="##RQD1    " high_intensity="true" underline="true" data_type="alphanumeric" data_length="153" display_length="153" usage="both" lowercase="true" field_type="field" position_cursor="conditional" conditional="true">
+                        <area>
+                            <position x="6" y="16"/>
+                            <size cx="153" cy="1"/>
+                        </area>
+                        <color foreground="green"/>
+                        <indicator negative="true" id="81"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F6=Messages   F14=Submitted jobs" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator id="78"/>
+                        <indicator negative="true" id="77"/>
+                        <indicator negative="true" id="76"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F6=Messages  F8=Rev retrieve  F9=Retrieve  F10=Cmd entry  F14=Submitted jobs" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator id="78"/>
+                        <indicator id="77"/>
+                        <indicator negative="true" id="76"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F3=Exit   F6=Messages   F14=Submitted jobs" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator id="78"/>
+                        <indicator negative="true" id="77"/>
+                        <indicator id="76"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F3=Exit  F6=Messages  F8=Rev retrieve  F9=Retrieve  F10=Cmd Entry  F14=Sbm jobs" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator id="78"/>
+                        <indicator id="77"/>
+                        <indicator id="76"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F3=Major menu   F6=Messages   F12=Prev. menu   F14=Submitted jobs   F24=More" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator negative="true" id="77"/>
+                        <indicator negative="true" id="78"/>
+                        <indicator negative="true" id="79"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F3=Major menu  F6=Msg  F8=Rev retrieve  F9=Retrieve  F10=Cmd entry  F24=More" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator id="77"/>
+                        <indicator negative="true" id="78"/>
+                        <indicator negative="true" id="79"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F16=Major menu   F23=Reset to major menu   F24=More" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator negative="true" id="77"/>
+                        <indicator negative="true" id="78"/>
+                        <indicator id="79"/>
+                    </field>
+                    <field high_intensity="conditional" reverse_image="conditional" underline="conditional" value="F12=Prev. menu   F14=Sub. jobs   F16=Major menu   F23=Reset to major   F24=More" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                        <color foreground="blue" conditional="true"/>
+                        <color foreground="green" conditional="true"/>
+                        <color foreground="magenta" conditional="true"/>
+                        <color foreground="red" conditional="true"/>
+                        <color foreground="cyan" conditional="true"/>
+                        <color foreground="white" conditional="true"/>
+                        <color foreground="yellow" conditional="true"/>
+                        <indicator id="77"/>
+                        <indicator negative="true" id="78"/>
+                        <indicator id="79"/>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="19"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+            </field>
+        </field>
+        <field name="*021/024  " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="23"/>
+                <size cx="80" cy="1"/>
+            </area>
+            <field value="    Confirm:" data_length="12" display_length="12" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="59" y="0"/>
+                    <size cx="12" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field name="##CFSS    " high_intensity="true" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" position_cursor="true" exit_record="true" conditional="true">
+                <area>
+                    <position x="72" y="0"/>
+                    <size cx="1" cy="1"/>
+                </area>
+            </field>
+            <field value="(Y,N)" data_length="5" display_length="5" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="74" y="0"/>
+                    <size cx="5" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                <area>
+                    <position x="78" y="0"/>
+                    <size cx="1" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+        </field>
+    </screen>
+</header>

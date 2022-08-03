@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000028" library="EDUGEN    " member_name="YWMQDSC#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="f12"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <field name="#SFTX#Q   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="3"/>
+            </area>
+            <field high_intensity="true" value="0001??" data_length="40" display_length="40" field_type="msgcon_text">
+                <area>
+                    <position x="19" y="0"/>
+                    <size cx="40" cy="1"/>
+                </area>
+            </field>
+            <field value="0002??" data_length="79" display_length="79" field_type="msgcon_text">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="79" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+        </field>
+        <field name="#SFCT#Q   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="3"/>
+                <size cx="80" cy="15"/>
+            </area>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="0"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="1"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="2"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="3"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="4"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="5"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="6"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="7"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="8"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="9"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="10"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="11"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="12"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="13"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="14"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                    <area>
+                        <position x="78" y="14"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+            </field>
+        </field>
+        <field name="#SFFT#Q   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="19"/>
+                <size cx="80" cy="3"/>
+            </area>
+            <field value="0003??" data_length="79" display_length="79" field_type="msgcon_text">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="79" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field high_intensity="true" value="0004??" data_length="79" display_length="79" field_type="msgcon_text">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="79" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+        </field>
+    </screen>
+</header>

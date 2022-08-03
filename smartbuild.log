@@ -1,0 +1,31 @@
+  SETTINGS: 
+
+  General:
+    <AlbumTextsAsMessages>: false
+    <MenuItemSpaceRequired>: true
+    <MenuItemHostFieldBreakdown>: true
+    <MaxListBoxHeaderLines>: 2
+    <MaxSelectionColumnWidth>: 3
+    <NoiseChars>: ".: |"
+    <OptionSeparatorChars>: "="
+    <OptionListSeparatorChars>: ",/"
+    <AverageCharWidthLength>: 10
+    <AssignFieldIds>: false
+    <PromptInListBoxHeader>: true
+    <TextCaseConversion>: false
+    <TemplateFieldMapper>: ""
+    <TreatAsChars>: ""
+    <FieldChecksAsHost>: false
+    <SingleRecordListbox>: false
+    <MaxMenuEntryFieldLength>: 2
+    <StripLeadingSpacesFromText>: true
+    <ListHeaderAsMessages>: false
+    <SelTemplateRequiresInputSelectionColumn>: false
+    <SkipListHeaderOnEmptyLine>: true
+    <UseEmulatorFieldNameForTextFields>: false
+
+  Live:
+    <HostEndOnLineWidth>: false
+    <EmulatorSpaceField>: false
+    <LiveTextsAsMessages>: false
+

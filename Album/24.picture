@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000024" library="EDUGEN    " member_name="YDDSHP1#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="f1"/>
+        <action key="f3"/>
+        <action key="f8" conditional="true"/>
+        <action key="f9"/>
+        <action key="f11"/>
+        <action key="f12"/>
+        <action key="f14"/>
+        <action key="f15"/>
+        <action key="f24"/>
+        <action key="enter"/>
+        <action key="print"/>
+        <action key="roll_up" conditional="true"/>
+        <action key="help" conditional="true"/>
+        <field name="#SFCT#1   " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="21"/>
+            </area>
+            <field field_type="subfile_container">
+                <field field_type="subfile_header">
+                    <field name="##TXTL    " high_intensity="true" data_type="alphanumeric" data_length="79" display_length="79" usage="output" field_type="field">
+                        <area>
+                            <position x="1" y="0"/>
+                            <size cx="79" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="3"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="4"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="5"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="6"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="7"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="8"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="9"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="10"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="11"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="12"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="13"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="14"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="15"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="16"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="17"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="18"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="19"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field field_type="subfile_record">
+                    <field name="##LN      " data_type="alphanumeric" data_length="78" display_length="78" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="20"/>
+                            <size cx="78" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+                <field name=".+IND     " value="+" data_length="1" display_length="1" field_type="subfile_end_plus" conditional="true">
+                    <area>
+                        <position x="78" y="20"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+            </field>
+        </field>
+        <field name="*021/024  " field_type="screen_part" overlay="true">
+            <area>
+                <position x="0" y="22"/>
+                <size cx="80" cy="2"/>
+            </area>
+            <field value="F1=Help for help   F3=Exit   F9=Keys help   F11=Index   F24=More keys" data_length="79" display_length="79" field_type="msgid_text" conditional="true">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="79" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field field_type="subfile_container">
+                <field field_type="subfile_record">
+                    <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="76" display_length="76" usage="output" field_type="field" conditional="true">
+                        <area>
+                            <position x="1" y="1"/>
+                            <size cx="76" cy="1"/>
+                        </area>
+                    </field>
+                </field>
+            </field>
+        </field>
+    </screen>
+</header>

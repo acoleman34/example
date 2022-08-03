@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?VersionInfo version="1.1" buildnumber="10.3923.2.637" exename="legasuite.exe" exeversion="10.3923.2.637"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creation_date_time="2022-05-27T13:08:35.533-04:00" application="Rocket MX and Automation workbench" application_version="1.0.0.202203152324" host_serial="1029VVM" xsi:noNamespaceSchemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000033" library="EDUGEN    " member_name="Y2WSTOC#  " message_line_y="24" originator="LegaSuiteCollectorAwhost">
+        <size cx="80" cy="24"/>
+        <action key="enter"/>
+        <field name="#TIMEOUT  " field_type="screen_part">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="23"/>
+            </area>
+            <field value="0002??" data_length="3" display_length="3" field_type="msgcon_text">
+                <area>
+                    <position x="35" y="0"/>
+                    <size cx="3" cy="1"/>
+                </area>
+            </field>
+            <field name="USER      " high_intensity="true" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="39" y="0"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field name="JOB       " high_intensity="true" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="50" y="0"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field name="*DATE     " high_intensity="true" data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="61" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field name="*TIME     " high_intensity="true" data_type="zoned_decimal" data_length="6" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="71" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field reverse_image="true" value="7351??" data_length="37" display_length="37" field_type="msgcon_text">
+                <area>
+                    <position x="1" y="1"/>
+                    <size cx="37" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="7352??" data_length="56" display_length="56" field_type="msgcon_text">
+                <area>
+                    <position x="3" y="9"/>
+                    <size cx="56" cy="1"/>
+                </area>
+            </field>
+            <field high_intensity="true" value="7353??" data_length="21" display_length="21" field_type="msgcon_text">
+                <area>
+                    <position x="3" y="10"/>
+                    <size cx="21" cy="1"/>
+                </area>
+            </field>
+            <field name="Y2WSTOA   " high_intensity="true" data_type="alphanumeric" data_length="50" display_length="50" usage="output" field_type="field">
+                <area>
+                    <position x="3" y="11"/>
+                    <size cx="50" cy="1"/>
+                </area>
+            </field>
+            <field reverse_image="true" data_length="78" display_length="78" field_type="fixed_text">
+                <area>
+                    <position x="1" y="22"/>
+                    <size cx="78" cy="1"/>
+                </area>
+            </field>
+        </field>
+    </screen>
+</header>

@@ -1,0 +1,44 @@
+
+legsid2 (10.3923.2.637): picture identification creator.
+Copyright (C) Rocket Software, Inc. 1993-2022. All Rights Reserved.
+
+legsid2 /yLSWB /a+ /lm- /l1- /mc /i2 /m1 /national \u0021\u0023-\u0024\u0040\u005b-\u0060\u007b-\u00ff\u2014-\u2016\u20ac\u2212\u2225\u301c\uff0d\uff5e\uffe4\ufffd /bt /w0 /projectDir C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training /projectSet C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\Training\Album\project.identification /output C:\Users\acoleman\Documents\RocketSoftware Projects\rocket projects\10.1.4\hyster-yale\Hyster-yale training\.metadata\.plugins\com.seagullsw.eclipse.project.hostbase\.temp\Training\idrun\runtime.lwi
+
+Build . . . . . . . . . . . . . . : 10.3923.2.637
+Attributes in output fields . . . : Allowed
+Border title window detection . . : Yes
+  Requires run time version . . . : 4.0C8 (E5xx) (or later)
+Colored border window detection . : Yes
+  Requires run time version . . . : 4.0C7 (E487) (or later)
+Growth maximum  . . . . . . . . . : 0%
+Redundant pictures  . . . . . . . : As instructed by developer
+Message texts . . . . . . . . . . : MSGID can change; MSGCON, fixed text and lengths cannot
+  Constant form . . . . . . . . . : "^[A-Z]*[0-9]+"
+  Minimum length  . . . . . . . . : Default
+Optimization limit  . . . . . . . : 0
+National characters . . . . . . . : \u0021, \u0023-\u0024, \u0040,
+                                    \u005b-\u0060, \u007b-\u00ff,
+                                    \u2014-\u2016, \u20ac, \u2212, \u2225,
+                                    \u301c, \uff0d, \uff5e, \uffe4, \ufffd
+
+
+24x80 pictures conditionally identified (<c> should be checked):
+
+<c>     (12)        EDUGEN/UUARETRD(ZSFLCTL+*021/024)
+<c>     (18)        EDUGEN/UUAXETRD(ZSFLCTL+*021/024)
+<c>     (23)        EDUGEN/YDDSHPR#(#SFCT#1+*021/024)
+<c>     (24)        EDUGEN/YDDSHP1#(#SFCT#1+*021/024)
+<c>     (25)        EDUGEN/YDMNGOI#(#HDNGS+*021/024)
+<c>     (27)        EDUGEN/YDMNGOI#(#HDNGS+#SFLCTL+*021/024)
+
+
+Picture identification report:             See:    Recommended action:
+
+Redundant . . . . . . . . . . . . :     0
+Identical . . . . . . . . . . . . :     0
+Cannot be distinguished . . . . . :     0
+Conditionally identified  . . . . :     6   <c>    Should be checked
+
+Uniquely identified . . . . . . . :    27
+
+Total number of pictures. . . . . :    33
