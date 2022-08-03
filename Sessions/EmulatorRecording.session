@@ -1,0 +1,9 @@
+#
+#Wed Sep 29 11:25:01 EDT 2010
+BidiOisReturnsLogical=1
+EmulatorSystem=localhost
+EmulatorSystemPort=23
+Emulator=SeagullXml
+EmulatorSystemUriPath=heman/Training/Screen shots
+WideScreen=1
+EmulatorConnect=TcpIp

@@ -1,0 +1,20 @@
+﻿Rem
+Rem Script file
+Rem
+Option Explicit
+Dim myinput As String
+Global cityinfo As String
+myinput = "1"
+
+PanelUpdateEnable(0)
+HostFieldPutData("ZDAIST", 0, myinput)
+
+HostScreenSendKey("Enter")
+
+
+HostFieldGetData("ATLANTA", cityinfo)
+
+HostScreenSendKey("F3")
+
+PanelUpdateEnable(2)
+

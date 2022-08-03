@@ -1,0 +1,8 @@
+﻿#
+#Tue May 31 16:54:46 EDT 2022
+BidiOisReturnsLogical=1
+EmulatorSystem=aldmz01.rocketsoftware.com
+EmulatorSystemPort=992
+Emulator=Seagull5250
+WideScreen=1
+EmulatorConnect=TcpIpS
